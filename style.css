@@ -1,0 +1,89 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ff6f00;
+}
+
+.btn-primary {
+  background-color: #ff6f00;
+  border-color: #ff6f00;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #e66000;
+  border-color: #e66000;
+}
+
+.hero-section{
+  
+  color: white;
+  text-align: center;
+}
+
+.hero-section img {
+  clip-path: polygon(100% 0, 10% 0, 0 50%, 10% 100%, 100% 100%);
+  object-fit: cover;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #ff6f00;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ff6f00;
+}
