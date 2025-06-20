@@ -78,7 +78,7 @@ body {
 }
 
 .footer {
-  background-color: #343a40;
+  background-color: #1e293b;
   color: white;
   padding: 40px 0;
 }
@@ -101,4 +101,15 @@ body {
   .hero-section img {
     clip-path: none;
   }
+}
+.about-us{
+  background-image: url(assets/Blured-2.webp);
+}
+
+.why-sec{
+  background-image: url(assets/Blured-2.webp);
+}
+
+.faq-sec{
+  background-image: url(assets/Blured-2.webp);
 }
