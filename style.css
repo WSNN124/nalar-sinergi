@@ -113,3 +113,13 @@ body {
 .faq-sec{
   background-image: url(assets/Blured-2.webp);
 }
+.product a{
+  background-color: #ff6f00;
+  color: white;
+  font-weight: bold;
+}
+
+.product a:hover {
+  background-color: #e66000;
+  border-color: #e66000;
+}
