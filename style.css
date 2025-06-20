@@ -73,6 +73,20 @@ body {
   transform: scale(1.05);
 }
 
+#learning-path .card {
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+
+#learning-path .card:hover {
+  opacity: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+}
+
 #partner img {
   width: 90%;
 }
@@ -102,18 +116,18 @@ body {
     clip-path: none;
   }
 }
-.about-us{
+.about-us {
   background-image: url(assets/Blured-2.webp);
 }
 
-.why-sec{
+.why-sec {
   background-image: url(assets/Blured-2.webp);
 }
 
-.faq-sec{
+.faq-sec {
   background-image: url(assets/Blured-2.webp);
 }
-.product a{
+.product a {
   background-color: #ff6f00;
   color: white;
   font-weight: bold;

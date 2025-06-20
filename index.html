@@ -13,6 +13,12 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -103,23 +109,29 @@
     <!-- Hero Section End -->
 
     <!-- About Us Start -->
-<section class="py-5 about-us">
-  <div class="container">
-    <h2 class="section-title text-center text-md-start">Tentang Kami</h2>
-    
-    <div class="row align-items-center">
-      
-      <div class="col-12 col-md-6">
-        <img src="assets/About-us-img.webp" class="img-fluid rounded mx-auto d-block" alt="Tim Nalar Sinergi sedang berdiskusi">
-      </div>
-      <div class="col-12 col-md-6 mb-4 mb-md-0">
-        <p>Nalar Sinergi adalah platform belajar IT yang menyediakan pembelajaran online dan offline. Kamu bisa belajar berbagai topik seperti pemrograman, jaringan komputer, desain, dan banyak lagi—sesuai dengan kebutuhan dan gaya belajar kamu.</p>
+    <section class="py-5 about-us">
+      <div class="container">
+        <h2 class="section-title text-center text-md-start">Tentang Kami</h2>
 
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <img
+              src="assets/About-us-img.webp"
+              class="img-fluid rounded mx-auto d-block"
+              alt="Tim Nalar Sinergi sedang berdiskusi"
+            />
+          </div>
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <p>
+              Nalar Sinergi adalah platform belajar IT yang menyediakan
+              pembelajaran online dan offline. Kamu bisa belajar berbagai topik
+              seperti pemrograman, jaringan komputer, desain, dan banyak
+              lagi—sesuai dengan kebutuhan dan gaya belajar kamu.
+            </p>
+          </div>
+        </div>
       </div>
-      
-    </div>
-  </div>
-</section>
+    </section>
     <!-- About Us End -->
 
     <!-- Why Nalar Sinergi Section Start -->
@@ -180,7 +192,9 @@
                   video belajar.
                 </p>
                 <a href="#" class="btn">Beli Paket</a>
-                <span class="m-2 fw-bold">Rp. 35.0000/ <small>Bulan</small></span>
+                <span class="m-2 fw-bold"
+                  >Rp. 35.0000/ <small>Bulan</small></span
+                >
               </div>
             </div>
           </div>
@@ -198,7 +212,9 @@
                   kotamu.
                 </p>
                 <a href="#" class="btn">Beli Paket</a>
-                <span class="m-2 fw-bold">Rp. 60.000/ <small>Bulan</small></span>
+                <span class="m-2 fw-bold"
+                  >Rp. 60.000/ <small>Bulan</small></span
+                >
               </div>
             </div>
           </div>
@@ -215,7 +231,9 @@
                   Nikmati 14 hari percobaan dalam menikmati kursus Nalar sinergi
                 </p>
                 <a href="#" class="btn">Beli Paket</a>
-                <span class="m-2 fw-bold"><del>Rp. 200.0000/ <small>Bulan</small></del></span>
+                <span class="m-2 fw-bold"
+                  ><del>Rp. 200.0000/ <small>Bulan</small></del></span
+                >
               </div>
             </div>
           </div>
@@ -232,7 +250,9 @@
                   Nikmati kelas kusus Belajar Komputer di NalarSinergi
                 </p>
                 <a href="#" class="btn">Beli Paket</a>
-                <span class="m-2 fw-bold">Rp. 100.0000/ <small>Bulan</small></span>
+                <span class="m-2 fw-bold"
+                  >Rp. 100.0000/ <small>Bulan</small></span
+                >
               </div>
             </div>
           </div>
@@ -240,6 +260,238 @@
       </div>
     </section>
     <!-- Products Section End -->
+
+    <!-- Learning Path Start -->
+    <section id="learning-path">
+      <div class="container mt-5 p-4 rounded-3">
+        <div
+          id="carouselLearning"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="7000">
+              <div class="row d-flex flex-wrap">
+                <div class="col-4 col-md-3">
+                  <button
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    class="p-0 border-0"
+                  >
+                    <div class="card text-bg-dark">
+                      <img
+                        src="assets/learning-path/front-end.webp"
+                        class="card-img"
+                        alt="..."
+                      />
+                      <div
+                        class="card-img-overlay d-flex justify-content-center align-items-center"
+                      >
+                        <h2 class="card-title fw-bold opacity">Front End</h2>
+                      </div>
+                    </div>
+                  </button>
+                </div>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content"
+                      style="background-color: #f4f4f5"
+                    >
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Alur Belajar Front-End Developer
+                        </h1>
+
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div>
+                          <i class="fa-solid fa-school me-2"></i>5 kelas
+                        </div>
+
+                        <div>
+                          <i class="fa-solid fa-book-open-reader me-2"></i>87k
+                          siswa belajar di learning path ini
+                        </div>
+
+                        <iframe
+                          width="300"
+                          height="220"
+                          src="https://www.youtube.com/embed/DOX2gZp6D2U"
+                          allowfullscreen
+                          class="d-block mx-auto py-3"
+                        >
+                        </iframe>
+
+                        <h4>Detail Materi</h4>
+                        <ul>
+                          <li>Belajar Dasar Pemrograman Web</li>
+                          <li>Belajar Dasar Pemrograman JavaScript</li>
+                          <li>
+                            Belajar Membuat Aplikasi Front-End Web untuk Pemula
+                          </li>
+                          <li>Belajar Fundamental Front-End Web Development</li>
+                          <li>
+                            Belajar Pengembangan Aplikasi Web Intermediate
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="7000">
+              <div class="row d-flex flex-wrap">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-4">
+                  <div class="card shadow">
+                    <img
+                      src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lp7mf15s8ygj89.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Kaos Mix Brand Matahari Paket 4 PCS
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Rp 50.500</p>
+                        <p>570 terjual</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-4">
+                  <div class="card shadow">
+                    <img
+                      src="https://down-id.img.susercontent.com/file/id-11134207-7rasj-m4bz5phfi4kj96.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">Celana Jeans Pria Panjang Baggy</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Rp 69.900</p>
+                        <p>65 terjual</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-4">
+                  <div class="card shadow">
+                    <img
+                      src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lp3d1o92le3139@resize_w450_nl.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">Kaos Branded Distro Semi Katun</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Rp 89.900</p>
+                        <p>87 terjual</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-4">
+                  <div class="card shadow">
+                    <img
+                      src="https://down-id.img.susercontent.com/file/id-11134207-7r98r-lvr91kd0v5eead@resize_w450_nl.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">Kemeje Polos Lengan Panjang H&M</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Rp 77.900</p>
+                        <p>80 terjual</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-4">
+                  <div class="card shadow">
+                    <img
+                      src="https://down-id.img.susercontent.com/file/id-11134207-7rasm-m34dsqmyfddsfb.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">AUZY Rise Mode Korea Kaos</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Rp 49.500</p>
+                        <p>203 terjual</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-4">
+                  <div class="card shadow">
+                    <img
+                      src="https://down-id.img.susercontent.com/file/id-11134207-7r992-lqbdsv7615gu65@resize_w450_nl.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">Aerostreet T Shirt Miko Hitam</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Rp 51.699</p>
+                        <p>346 terjual</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselLearning"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselLearning"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Path End -->
 
     <!-- faq start-->
 
@@ -263,7 +515,7 @@
                       background: linear-gradient(to right, #ff6f00, #ff8c00);
                     "
                   >
-                    Apa itu Nalar Sinergi?
+                    Apakah saya perlu pengalaman sebelumnya untuk ikut kelas?
                   </button>
                 </h2>
                 <div
@@ -272,10 +524,9 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    Nalar Sinergi adalah platform belajar IT yang menyediakan
-                    pembelajaran online dan offline. Kamu bisa belajar berbagai
-                    topik seperti pemrograman, jaringan komputer, desain, dan
-                    banyak lagi—sesuai dengan kebutuhan dan gaya belajar kamu.
+                    Tidak perlu. Kami punya banyak materi khusus untuk pemula,
+                    lengkap dengan penjelasan dasar. Kamu bisa mulai dari nol
+                    dan naik ke level mahir sesuai kecepatan belajar kamu.
                   </div>
                 </div>
               </div>
@@ -501,7 +752,7 @@
 
     <!-- faq end-->
 
-     <!-- Partner Section Start -->
+    <!-- Partner Section Start -->
     <section
       id="partner"
       class="container-fluid p-5"
