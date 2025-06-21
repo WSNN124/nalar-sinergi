@@ -8,8 +8,6 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-brand img {
-}
 
 .nav-link {
   color: #333;
@@ -144,10 +142,7 @@ body {
   border-color: #e66000;
 }
 
-.faded-mask {
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
-  mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
-}
+
 .scrolling-track-vertical {
   animation-name: scroll-up;
   animation-timing-function: linear;
