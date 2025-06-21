@@ -76,6 +76,7 @@ body {
 #learning-path .card {
   opacity: 0.5;
   transition: transform 0.2s;
+  cursor: pointer;
 }
 
 #learning-path .card:hover {
@@ -90,6 +91,7 @@ body {
 #partner img {
   width: 90%;
 }
+
 
 .footer {
   background-color: #1e293b;
@@ -114,6 +116,10 @@ body {
 @media (max-width: 768px) {
   .hero-section img {
     clip-path: none;
+  }
+
+  #learning-path .card-title {
+    font-size: 90% !important;
   }
 }
 .about-us {
